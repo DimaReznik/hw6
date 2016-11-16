@@ -1,0 +1,349 @@
+.wrapper {
+  width: 911px;
+  margin: auto;
+}
+
+body {
+  font-family: Lucida Sans Unicode;
+}
+
+header {
+  margin: auto;
+}
+
+.content {
+  padding-bottom: 20px;
+}
+
+.content:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.imageblock {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+     -moz-background-size: 100%; /* Firefox 3.6+ */
+     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+     -o-background-size: 100%; /* Opera 9.6+ */
+
+  background-color: black;
+  height: 241px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+nav.submenu {
+  background: #fff;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+p.number {
+  font-size: 14px;
+  color: #5e696d;
+}
+
+ul#navigation2 > li{
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 4px 7px;
+  text-decoration: none;
+}
+
+ul#navigation2 > li.form{
+  background: #000;
+  border-radius: 5px;
+  background: linear-gradient(to top, #0c3357, #1f6787);
+
+}
+
+ul#navigation2 > li.icons {
+  border: 2px solid;
+  padding: 4px;
+  border-color: grey;
+  }
+
+.autorization {
+  height: 30px;
+}
+
+a.autorization {
+  font-size: 8px;
+  font-family: Arial;
+}
+
+a.forgotpassword {
+  font-size: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+nav.menu {
+  background: linear-gradient(to top, #030303, #2c345a);
+  height: 33px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+ul#navigation1{
+  margin-left: 123px;
+}
+
+ul#navigation1 > li{
+  display: inline-block;
+  float: left;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 4px 13px;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: #b1bcc0;
+}
+
+a:visited:hover{
+    color: #fff;
+  }
+
+ul#navigation1 > li:hover{
+  background: linear-gradient(to top, #0c3357, #25617b);
+  border-radius: 20px;
+
+}
+
+.choice {
+  clear: both;
+}
+
+section.auto {
+  width: 410px;
+  height: 130px;
+  float: left;
+  border: 2px #a4a4a5 solid;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-right: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+
+section.disk {
+  width: 191px;
+  height: 130px;
+  float: left;
+  border: 2px #a4a4a5 solid;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-right: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+section.shina {
+  width: 268px;
+  height: 130px;
+  float: left;
+  border: 2px #a4a4a5 solid;
+  border-radius: 10px;
+  margin-top: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.content2 {
+  overflow: hidden;
+  position: relative;
+}
+
+section.leftsidebar {
+  float: left;
+  margin: auto;
+  width: 190px;
+  overflow: hidden;
+}
+
+section.leftsidebar > .leftsidebarcontent {
+  margin-left: 30px;
+}
+
+.leftsidebartitle > a {
+  border: 1px #465961 solid;
+  border-width: 1px;
+  border-radius: 20px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #465961;
+  padding-top: 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5)
+
+}
+
+.rightsidebartitle > a {
+  border: 1px #465961 solid;
+  border-width: 1px;
+  border-radius: 20px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-right: 50px;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #465961;
+  padding-top: 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5)
+
+}
+
+ul.catalog > li.catalog1 > a {
+  display: table-cell;
+  border: 1px #465961 solid;
+  border-width: 1px;
+  border-radius: 20px;
+  font-size: 14px;
+  padding-bottom: 4px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-right: 30px;
+  text-transform: uppercase;
+  color: #465961;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
+
+li.catalog1 > ul>li.paragraph {
+  font-size: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  list-style-type: circle;
+}
+
+li.catalog1 > ul>li.paragraph > a{
+  font-size: 14px;
+  list-style: circle;
+}
+
+
+li.catalog1 > ul>li.paragraph > a:hover {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #465961;
+}
+
+section.content {
+  margin: auto;
+  height: 625px;
+  width: 525px;
+  background: linear-gradient(to top, #93a7b0, #e5e7e8);
+}
+
+section.content > .products > .goodyear{
+  float: left;
+  margin-left: 30px;
+  text-align: center;
+}
+
+section.content > .products > .hankook{
+  float: right;
+  margin-right: 30px;
+  text-align: center;
+
+}
+
+section.content > .products > .nokian{
+text-align: center;
+}
+
+
+.content > .products {
+  padding-top: 20px;
+}
+
+figure {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+figure > figcaption.name {
+  color: #206988;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+figure > figcaption.description {
+  color: #1f2528;
+  font-size: 13px;
+  font-style: normal;;
+}
+
+figure > figcaption.price {
+  font-family: Arial;
+  color: #114165;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+section.rightsidebar {
+  float: right;
+  margin: auto;
+  width: 190px;
+}
+
+section.rightsidebar > .rightsidebarcontent {
+  margin-left: 30px;
+}
+
+.brands {
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer {
+  margin: auto;
+  margin-top: 30px;
+  width: 910px;
+  height: 100px;
+  background: #213a4d;
+  text-align: center;
+}
+
+.footer-menu {
+  padding-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.creator{
+  font-size: 10px;
+  padding-top: 20px;
+}
+
+.creator> a{
+  color: red;
+}
+
+footer.footer-menu > p>a:hover{
+  margin: auto;
+  text-align: center;
+  color: #52abcb;
+}
